@@ -8,10 +8,11 @@ public class FizzBuzz {
     private static final int MODULO_5 = 5;
     private static final int MODULO_7 = 7;
     private static final String WHIZZ = "Whizz";
+    private static final String FIZZ_BUZZ = "FizzBuzz";
 
     public String countOff(int inputNumber) {
         if(inputNumber % MODULO_3 == 0 && inputNumber % MODULO_5 == 0){
-            return "FizzBuzz";
+            return FIZZ_BUZZ;
         }
         else if(inputNumber % MODULO_3 == 0){
             return FIZZ;
