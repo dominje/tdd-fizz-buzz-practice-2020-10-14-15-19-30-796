@@ -45,7 +45,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_FizzBuzz_when_multiple_of_three_and_five_order_number_is_three_and_five() {
+    void should_return_FizzBuzz_when_multiple_of_three_and_five_order_number_is_15() {
         // given
         int inputNumber = 15;
 
