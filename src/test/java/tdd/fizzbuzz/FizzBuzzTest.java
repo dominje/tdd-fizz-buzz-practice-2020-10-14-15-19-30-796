@@ -67,4 +67,16 @@ public class FizzBuzzTest {
         // then
         assertEquals("FizzWhizz", actual);
     }
+
+    @Test
+    void should_return_FizzWhizzBuzz_when_multiple_of_three_and_five_and_seven_order_number_is_105() {
+        // given
+        int inputNumber = 105;
+
+        // when
+        String actual = fizzBuzz.countOff(inputNumber);
+
+        // then
+        assertEquals("FizzWhizzBuzz", actual);
+    }
 }
