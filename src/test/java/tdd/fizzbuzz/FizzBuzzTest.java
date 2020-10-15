@@ -79,4 +79,15 @@ public class FizzBuzzTest {
         // then
         assertEquals("FizzWhizzBuzz", actual);
     }
+    @Test
+    void should_return_order_number_when_order_number_is_not_a_multiple_of_three_and_five_and_seven_given_order_number_is_1() {
+        // given
+        int inputNumber = 1;
+
+        // when
+        String actual = fizzBuzz.countOff(inputNumber);
+
+        // then
+        assertEquals("1", actual);
+    }
 }
