@@ -2,9 +2,12 @@ package tdd.fizzbuzz;
 
 public class FizzBuzz {
 
+    public static final String FIZZ = "Fizz";
+    public static final int MODULO_3 = 3;
+
     public String countOff(int inputNumber) {
-        if(inputNumber % 3 ==0){
-            return "Fizz";
+        if(inputNumber % MODULO_3 ==0){
+            return FIZZ;
         }
         return "";
     }
