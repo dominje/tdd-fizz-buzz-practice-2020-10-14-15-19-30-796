@@ -8,6 +8,8 @@ public class FizzBuzz {
     public String countOff(int inputNumber) {
         if(inputNumber % MODULO_3 ==0){
             return FIZZ;
+        } else if(inputNumber % 5 == 0){
+            return "Buzz";
         }
         return "";
     }
