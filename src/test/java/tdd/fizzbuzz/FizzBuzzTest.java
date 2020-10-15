@@ -1,6 +1,5 @@
 package tdd.fizzbuzz;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -43,5 +42,17 @@ public class FizzBuzzTest {
 
         // then
         assertEquals("Whizz", actual);
+    }
+
+    @Test
+    void should_return_FizzBuzz_when_multiple_of_three_and_five_order_number_is_three_and_five() {
+        // given
+        int inputNumber = 15;
+
+        // when
+        String actual = fizzBuzz.countOff(inputNumber);
+
+        // then
+        assertEquals("FizzBuzz", actual);
     }
 }
