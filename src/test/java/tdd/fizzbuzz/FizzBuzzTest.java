@@ -55,4 +55,16 @@ public class FizzBuzzTest {
         // then
         assertEquals("FizzBuzz", actual);
     }
+
+    @Test
+    void should_return_FizzWhizz_when_multiple_of_three_and_seven_order_number_is_21() {
+        // given
+        int inputNumber = 21;
+
+        // when
+        String actual = fizzBuzz.countOff(inputNumber);
+
+        // then
+        assertEquals("FizzWhizz", actual);
+    }
 }
