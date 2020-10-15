@@ -17,4 +17,18 @@ public class FizzBuzzTest {
         //then
         assertEquals("Fizz", actual);
     }
+
+    @Test
+    void should_return_Buzz_when_multiple_of_five_fiven_order_number_is_five() {
+        // given
+        int inputNumber = 5;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        // when
+        String actual = fizzBuzz.countOff(inputNumber);
+
+        // then
+        assertEquals("Buzz", actual);
+
+    }
 }
