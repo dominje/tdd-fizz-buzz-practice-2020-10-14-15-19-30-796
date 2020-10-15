@@ -20,9 +20,7 @@ public class FizzBuzz {
             return FIZZ;
         } else if(inputNumber % MODULO_5 == 0){
             return BUZZ;
-        } else if(inputNumber % MODULO_7 == 0){
-            return WHIZZ;
         }
-        return "";
+            return WHIZZ;
     }
 }
